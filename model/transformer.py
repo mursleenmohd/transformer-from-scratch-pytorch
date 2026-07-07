@@ -19,7 +19,6 @@ class Transformer(nn.Module):
     def generate_mask(self, src, tgt):
         src_mask = (src != 0).unsqueeze(1).unsqueeze(2)
         
-        # 🔥 FIX 1: unsqueeze(3) ko badal kar unsqueeze(2) kiya taaki shape sahi rahe
         tgt_mask = (tgt != 0).unsqueeze(1).unsqueeze(2)
         seq_length = tgt.size(1)
         
@@ -38,7 +37,6 @@ class Transformer(nn.Module):
 
         dec_output = tgt_embedded
         for dec_layer in self.decoder_layers:
-            # 🔥 FIX 2: Order sahi kiya! tgt_mask pehle jayega, src_mask baad mein
             dec_output = dec_layer(dec_output, enc_output, tgt_mask, src_mask)
 
         output = self.fc(dec_output)

@@ -3,7 +3,6 @@ from torch.utils.data import Dataset, DataLoader
 import pandas as pd
 import config
 
-# 1. Hamara purana Tokenizer
 class SimpleTokenizer:
     def __init__(self):
         self.word2idx = {"<PAD>": 0, "<SOS>": 1, "<EOS>": 2, "<UNK>": 3}

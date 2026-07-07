@@ -42,7 +42,6 @@ class DecoderLayer(nn.Module):
         self.norm3 = nn.LayerNorm(d_model)
         self.dropout = nn.Dropout(dropout)
 
-    # 1. Signature align kiya: tgt_mask pehle, src_mask baad mein
     def forward(self, x, enc_output, tgt_mask, src_mask):
         attn_output = self.self_attn(x, x, x, tgt_mask)
         x = self.norm1(x + self.dropout(attn_output))
