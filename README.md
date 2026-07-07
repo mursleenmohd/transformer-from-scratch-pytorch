@@ -18,6 +18,8 @@ An end-to-end implementation of the original **Transformer architecture** (based
 ### 2. Training Phase & Loss Convergence
 *The custom training loop processing micro-batches and optimizing the Cross-Entropy loss.*
 ![Training Process]("C:\Users\Mohd Sahdeen\OneDrive\Pictures\Screenshots\Screenshot 2026-07-07 071922.png")
+<img width="832" height="913" alt="Screenshot 2026-07-07 071922" src="https://github.com/user-attachments/assets/983b07cc-073e-487b-ad9d-fd52dca13904" />
+
 
 ---
 
