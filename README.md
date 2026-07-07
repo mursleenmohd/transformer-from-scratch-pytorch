@@ -13,7 +13,8 @@ An end-to-end implementation of the original **Transformer architecture** (based
 ### 1. Model Translation (Inference)
 *Demonstrating the model translating unseen English text to Hindi after training.*
 ![Translation Output]
-<img width="845" height="712" alt="Screenshot 2026-07-06 120213" src="https://github.com/user-attachments/assets/fde912ed-2783-48f0-9e9e-635337653dd4" />
+<img width="863" height="586" alt="first png" src="https://github.com/user-attachments/assets/45f498ba-cb6e-4e2f-9530-abd2026f7955" />
+
 
 
 
