@@ -12,12 +12,14 @@ An end-to-end implementation of the original **Transformer architecture** (based
 
 ### 1. Model Translation (Inference)
 *Demonstrating the model translating unseen English text to Hindi after training.*
-![Translation Output]("C:\Users\Mohd Sahdeen\OneDrive\Pictures\Screenshots\Screenshot 2026-07-06 120213.png")
+![Translation Output]
+<img width="845" height="712" alt="Screenshot 2026-07-06 120213" src="https://github.com/user-attachments/assets/fde912ed-2783-48f0-9e9e-635337653dd4" />
+
 
 
 ### 2. Training Phase & Loss Convergence
 *The custom training loop processing micro-batches and optimizing the Cross-Entropy loss.*
-![Training Process]("C:\Users\Mohd Sahdeen\OneDrive\Pictures\Screenshots\Screenshot 2026-07-07 071922.png")
+![Training Process](
 <img width="832" height="913" alt="Screenshot 2026-07-07 071922" src="https://github.com/user-attachments/assets/983b07cc-073e-487b-ad9d-fd52dca13904" />
 
 
@@ -52,3 +54,5 @@ The codebase is highly modularized for readability and scalability:
  ┣ 📜 download_data.py  # Script to fetch the IIT-Bombay corpus via Hugging Face
  ┣ 📜 train.py          # Training loop, loss calculation, and optimization
  ┗ 📜 evaluate.py       # Greedy decoding script for real-time translation
+
+
